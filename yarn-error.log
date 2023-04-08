@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+  /usr/local/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js
 
 PATH: 
-  /Users/mitalrupapara/Downloads/ProdigyApp/node_modules/.bin:/Users/mitalrupapara/Downloads/node_modules/.bin:/Users/mitalrupapara/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin:/Users/mitalrupapara/.npm/_npx/7930a8670f922cdb/node_modules/.bin:/Users/mitalrupapara/Downloads/node_modules/.bin:/Users/mitalrupapara/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/Users/mitalrupapara/.rvm/gems/ruby-2.7.7/bin:/Users/mitalrupapara/.rvm/gems/ruby-2.7.7@global/bin:/Users/mitalrupapara/.rvm/rubies/ruby-2.7.7/bin:/usr/local/opt/ruby@2.7.5/bin:/opt/homebrew/opt/mongodb-community@4.4/bin:/Users/mitalrupapara/Library/Android/sdk/platform-tools:/Users/mitalrupapara/Library/Android/sdk/tools/bin:/Users/mitalrupapara/Library/Android/sdk/tools:/Users/mitalrupapara/Library/Android/sdk/emulator:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/ruby@2.7.5/bin:/opt/homebrew/opt/mongodb-community@4.4/bin:/Users/mitalrupapara/Library/Android/sdk/platform-tools:/Users/mitalrupapara/Library/Android/sdk/tools/bin:/Users/mitalrupapara/Library/Android/sdk/tools:/Users/mitalrupapara/Library/Android/sdk/emulator:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/mitalrupapara/.rvm/bin
+  /usr/local/opt/ruby@2.7.5/bin:/opt/homebrew/opt/mongodb-community@4.4/bin:/Users/mitalrupapara/Library/Android/sdk/platform-tools:/Users/mitalrupapara/Library/Android/sdk/tools/bin:/Users/mitalrupapara/Library/Android/sdk/tools:/Users/mitalrupapara/Library/Android/sdk/emulator:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/mitalrupapara/.rvm/gems/ruby-2.7.7/bin:/Users/mitalrupapara/.rvm/gems/ruby-2.7.7@global/bin:/Users/mitalrupapara/.rvm/rubies/ruby-2.7.7/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/ruby@2.7.5/bin:/opt/homebrew/opt/mongodb-community@4.4/bin:/Users/mitalrupapara/Library/Android/sdk/platform-tools:/Users/mitalrupapara/Library/Android/sdk/tools/bin:/Users/mitalrupapara/Library/Android/sdk/tools:/Users/mitalrupapara/Library/Android/sdk/emulator:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/mitalrupapara/.rvm/gems/ruby-2.7.7/bin:/Users/mitalrupapara/.rvm/gems/ruby-2.7.7@global/bin:/Users/mitalrupapara/.rvm/rubies/ruby-2.7.7/bin:/Users/mitalrupapara/.rvm/bin:/Users/mitalrupapara/.rvm/bin
 
 Yarn version: 
   1.22.19
@@ -14,7 +14,12 @@ Platform:
   darwin arm64
 
 Trace: 
-  Error: ENOSPC: no space left on device, copyfile '/Users/mitalrupapara/Library/Caches/Yarn/v6/npm-neo-async-2.6.2-b4aafb93e3aeb2d8174ca53cf163ab7d7308305f-integrity/node_modules/neo-async/mapSeries.js' -> '/Users/mitalrupapara/Downloads/ProdigyApp/node_modules/neo-async/mapSeries.js'
+  SyntaxError: /Users/mitalrupapara/Documents/MR/ProdigyApp/package.json: Unexpected token } in JSON at position 743
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
 
 npm manifest: 
   {
@@ -29,8 +34,17 @@ npm manifest:
       "test": "jest"
     },
     "dependencies": {
+      "@react-native-async-storage/async-storage": "^1.18.1",
+      "@react-navigation/bottom-tabs": "^6.5.7",
+      "@react-navigation/native": "^6.1.6",
+      "@react-navigation/native-stack": "^6.9.12",
       "react": "18.2.0",
-      "react-native": "0.71.6"
+      "react-native": "0.71.6",
+      "react-native-gesture-handler": "^2.9.0",
+      "react-native-safe-area-context": "^4.5.0",
+      "react-native-screens": "^3.20.0",
+      "react-native-vector-icons": "^9.2.0",
+      "@types/react-native-vector-icons": "^6.4.13",
     },
     "devDependencies": {
       "@babel/core": "^7.20.0",
