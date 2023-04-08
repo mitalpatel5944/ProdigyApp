@@ -1,17 +1,24 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {Text, View,StyleSheet} from 'react-native';
 
 function MessageScreen(props: any) {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: 'center',
-        backgroundColor: 'white',
-        alignItems:'center'
-      }}>
-        <Text style={{color:'black'}}>Messages</Text>
+      style={styles.view}>
+        <Text style={styles.text}>Messages</Text>
       </View>
   );
 }
+
+const styles = StyleSheet.create({
+  view : {
+    flex: 1,
+    justifyContent: 'center',
+    backgroundColor: 'white',
+    alignItems:'center'
+  },
+  text : {
+    color : 'black'
+  }
+})
 export default MessageScreen;
