@@ -1,0 +1,61 @@
+Arguments: 
+  /usr/local/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/mitalrupapara/Downloads/ProdigyApp/node_modules/.bin:/Users/mitalrupapara/Downloads/node_modules/.bin:/Users/mitalrupapara/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin:/Users/mitalrupapara/.npm/_npx/7930a8670f922cdb/node_modules/.bin:/Users/mitalrupapara/Downloads/node_modules/.bin:/Users/mitalrupapara/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/Users/mitalrupapara/.rvm/gems/ruby-2.7.7/bin:/Users/mitalrupapara/.rvm/gems/ruby-2.7.7@global/bin:/Users/mitalrupapara/.rvm/rubies/ruby-2.7.7/bin:/usr/local/opt/ruby@2.7.5/bin:/opt/homebrew/opt/mongodb-community@4.4/bin:/Users/mitalrupapara/Library/Android/sdk/platform-tools:/Users/mitalrupapara/Library/Android/sdk/tools/bin:/Users/mitalrupapara/Library/Android/sdk/tools:/Users/mitalrupapara/Library/Android/sdk/emulator:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/ruby@2.7.5/bin:/opt/homebrew/opt/mongodb-community@4.4/bin:/Users/mitalrupapara/Library/Android/sdk/platform-tools:/Users/mitalrupapara/Library/Android/sdk/tools/bin:/Users/mitalrupapara/Library/Android/sdk/tools:/Users/mitalrupapara/Library/Android/sdk/emulator:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/mitalrupapara/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOSPC: no space left on device, copyfile '/Users/mitalrupapara/Library/Caches/Yarn/v6/npm-neo-async-2.6.2-b4aafb93e3aeb2d8174ca53cf163ab7d7308305f-integrity/node_modules/neo-async/mapSeries.js' -> '/Users/mitalrupapara/Downloads/ProdigyApp/node_modules/neo-async/mapSeries.js'
+
+npm manifest: 
+  {
+    "name": "ProdigyApp",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "android": "react-native run-android",
+      "ios": "react-native run-ios",
+      "lint": "eslint .",
+      "start": "react-native start",
+      "test": "jest"
+    },
+    "dependencies": {
+      "react": "18.2.0",
+      "react-native": "0.71.6"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0",
+      "@babel/preset-env": "^7.20.0",
+      "@babel/runtime": "^7.20.0",
+      "@react-native-community/eslint-config": "^3.2.0",
+      "@tsconfig/react-native": "^2.0.2",
+      "@types/jest": "^29.2.1",
+      "@types/react": "^18.0.24",
+      "@types/react-test-renderer": "^18.0.0",
+      "babel-jest": "^29.2.1",
+      "eslint": "^8.19.0",
+      "jest": "^29.2.1",
+      "metro-react-native-babel-preset": "0.73.9",
+      "prettier": "^2.4.1",
+      "react-test-renderer": "18.2.0",
+      "typescript": "4.8.4"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
